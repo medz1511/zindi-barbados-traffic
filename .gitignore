@@ -1,0 +1,22 @@
+# Raw videos are never versioned (~134 GB)
+*.mp4
+videos/
+videos_temp/
+videos_temp_full/
+input/processed_log*.txt
+
+# Generated outputs
+output/*
+!output/.gitkeep
+
+# Credentials
+*.json
+.config/
+.env
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
